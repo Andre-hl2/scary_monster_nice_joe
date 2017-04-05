@@ -1,0 +1,61 @@
+﻿Build started 10/06/2014 01:06:42.
+     1>Project "C:\Temp\NICE JOE\Scary Monsters and Nice Joe\Scary Monsters and Nice Joe\Scary Monsters and Nice Joe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt classes\CInimigoBD.cpp classes\CInimigoBH.cpp
+         CInimigoBH.cpp
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobh.cpp(12): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobh.cpp(17): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobh.cpp(36): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobh.cpp(39): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         CInimigoBD.cpp
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobd.cpp(12): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobd.cpp(17): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobd.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobd.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobd.cpp(47): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\temp\nice joe\scary monsters and nice joe\scary monsters and nice joe\classes\cinimigobd.cpp(48): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Temp\NICE JOE\Scary Monsters and Nice Joe\Debug\Scary Monsters and Nice Joe.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib SDL2_ttf.lib XInput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Temp\NICE JOE\Scary Monsters and Nice Joe\Debug\Scary Monsters and Nice Joe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Temp\NICE JOE\Scary Monsters and Nice Joe\Debug\Scary Monsters and Nice Joe.lib" /MACHINE:X86 "Debug\Scary Monsters and Nice Joe.res"
+         Debug\CButton.obj
+         Debug\CChoice.obj
+         Debug\CEditor.obj
+         Debug\CFimJogo.obj
+         Debug\CHUD.obj
+         Debug\CInimigoBD.obj
+         Debug\CInimigoBH.obj
+         Debug\CInimigoBV.obj
+         Debug\CInimigoDiag.obj
+         Debug\CInimigoH.obj
+         Debug\CInimigoV.obj
+         Debug\CParticle.obj
+         Debug\CPlayer.obj
+         Debug\CPreview.obj
+         Debug\CTile.obj
+         Debug\CInimigoE.obj
+         Debug\Ator.obj
+         Debug\ControleX.obj
+         Debug\FW_Entrada.obj
+         Debug\FW_Resouce.obj
+         Debug\GameLoop.obj
+         Debug\GerenciadorTelas.obj
+         Debug\GerenteAtor.obj
+         Debug\Main.obj
+         Debug\CMenu.obj
+         Debug\RCreate.obj
+         Debug\REdit.obj
+         Debug\RGameOver.obj
+         Debug\RLogo.obj
+         Debug\RPassou.obj
+         Debug\RPlay.obj
+         Debug\RPreMenu.obj
+         Debug\RSelCria.obj
+         Debug\RSelEdit.obj
+         Debug\RSelJoga.obj
+         Debug\RTesta.obj
+         Scary Monsters and Nice Joe.vcxproj -> C:\Temp\NICE JOE\Scary Monsters and Nice Joe\Debug\Scary Monsters and Nice Joe.exe
+     1>Done Building Project "C:\Temp\NICE JOE\Scary Monsters and Nice Joe\Scary Monsters and Nice Joe\Scary Monsters and Nice Joe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.32

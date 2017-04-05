@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5FD9050E-0B41-4471-879F-3C0883E82279}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ScaryMonstersandNiceJoe</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\temp\NICE JOE\SDL2-2.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\temp\NICE JOE\SDL2-2.0.1\lib\win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_mixer.lib;SDL2_image.lib;SDL2_ttf.lib;XInput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="classes\CButton.cpp" />
+    <ClCompile Include="classes\CChoice.cpp" />
+    <ClCompile Include="classes\CEditor.cpp" />
+    <ClCompile Include="classes\CFimJogo.cpp" />
+    <ClCompile Include="classes\CHUD.cpp" />
+    <ClCompile Include="classes\CInimigoBD.cpp" />
+    <ClCompile Include="classes\CInimigoBH.cpp" />
+    <ClCompile Include="classes\CInimigoBV.cpp" />
+    <ClCompile Include="classes\CInimigoDiag.cpp" />
+    <ClCompile Include="classes\CInimigoH.cpp" />
+    <ClCompile Include="classes\CInimigoV.cpp" />
+    <ClCompile Include="classes\CParticle.cpp" />
+    <ClCompile Include="classes\CPlayer.cpp" />
+    <ClCompile Include="classes\CPreview.cpp" />
+    <ClCompile Include="classes\CTile.cpp" />
+    <ClCompile Include="classes\CInimigoE.cpp" />
+    <ClCompile Include="core\Ator.cpp" />
+    <ClCompile Include="core\ControleX.cpp" />
+    <ClCompile Include="core\FW_Entrada.cpp" />
+    <ClCompile Include="core\FW_Resouce.cpp" />
+    <ClCompile Include="core\GameLoop.cpp" />
+    <ClCompile Include="core\GerenciadorTelas.cpp" />
+    <ClCompile Include="core\GerenteAtor.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="rooms\CMenu.cpp" />
+    <ClCompile Include="rooms\RCreate.cpp" />
+    <ClCompile Include="rooms\REdit.cpp" />
+    <ClCompile Include="rooms\RGameOver.cpp" />
+    <ClCompile Include="rooms\RLogo.cpp" />
+    <ClCompile Include="rooms\RPassou.cpp" />
+    <ClCompile Include="rooms\RPlay.cpp" />
+    <ClCompile Include="rooms\RPreMenu.cpp" />
+    <ClCompile Include="rooms\RSelCria.cpp" />
+    <ClCompile Include="rooms\RSelEdit.cpp" />
+    <ClCompile Include="rooms\RSelJoga.cpp" />
+    <ClCompile Include="rooms\RTesta.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="classes\CButton.hpp" />
+    <ClInclude Include="classes\CChoice.hpp" />
+    <ClInclude Include="classes\CEditor.hpp" />
+    <ClInclude Include="classes\CFimJogo.hpp" />
+    <ClInclude Include="classes\CHUD.hpp" />
+    <ClInclude Include="classes\CInimigoBD.hpp" />
+    <ClInclude Include="classes\CInimigoBH.hpp" />
+    <ClInclude Include="classes\CInimigoBV.hpp" />
+    <ClInclude Include="classes\CInimigoDiag.hpp" />
+    <ClInclude Include="classes\CInimigoH.hpp" />
+    <ClInclude Include="classes\CInimigoV.hpp" />
+    <ClInclude Include="classes\CParticle.hpp" />
+    <ClInclude Include="classes\CPlayer.h" />
+    <ClInclude Include="classes\CPreview.hpp" />
+    <ClInclude Include="classes\CTile.hpp" />
+    <ClInclude Include="classes\CInimigoE.hpp" />
+    <ClInclude Include="core\Ator.h" />
+    <ClInclude Include="core\ControleX.hpp" />
+    <ClInclude Include="core\FW_Entrada.h" />
+    <ClInclude Include="core\FW_Resource.h" />
+    <ClInclude Include="core\GameLoop.h" />
+    <ClInclude Include="core\GerenciadorTelas.h" />
+    <ClInclude Include="core\GerenteAtor.h" />
+    <ClInclude Include="core\Tela.h" />
+    <ClInclude Include="Main.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="rooms\CMenu.hpp" />
+    <ClInclude Include="rooms\RCreate.h" />
+    <ClInclude Include="rooms\REdit.h" />
+    <ClInclude Include="rooms\RGameOver.h" />
+    <ClInclude Include="rooms\RLogo.h" />
+    <ClInclude Include="rooms\RPassou.h" />
+    <ClInclude Include="rooms\RPlay.h" />
+    <ClInclude Include="rooms\RPreMenu.h" />
+    <ClInclude Include="rooms\RSelCria.h" />
+    <ClInclude Include="rooms\RSelEdit.h" />
+    <ClInclude Include="rooms\RSelJoga.h" />
+    <ClInclude Include="rooms\RTesta.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scary Monsters and Nice Joe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\DATA\img\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

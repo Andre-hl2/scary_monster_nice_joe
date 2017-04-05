@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{91371d48-7ecd-4953-8800-19d3e78b4c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{c5832d02-0725-4747-a42b-74746e5364d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rooms">
+      <UniqueIdentifier>{3e0f83e8-ed31-4b19-b508-079792984d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rooms">
+      <UniqueIdentifier>{c0fc6194-75e6-4f5a-9554-34165cde9d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\classes">
+      <UniqueIdentifier>{41b267a7-4134-4fab-b06b-76190eb7f65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classes">
+      <UniqueIdentifier>{e18122f1-0e71-4f02-b8ca-a69e1bbd5100}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\Ator.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\FW_Entrada.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\FW_Resouce.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GameLoop.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GerenciadorTelas.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GerenteAtor.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\CMenu.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RPlay.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RCreate.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CTile.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CButton.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CParticle.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CPlayer.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RSelCria.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RSelJoga.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CPreview.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoV.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoH.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoDiag.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoE.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CFimJogo.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\REdit.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RSelEdit.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RTesta.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoBH.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoBV.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CInimigoBD.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RGameOver.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CChoice.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ControleX.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RLogo.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RPreMenu.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CEditor.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\CHUD.cpp">
+      <Filter>Source Files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="rooms\RPassou.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\Ator.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\FW_Entrada.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\FW_Resource.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GameLoop.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GerenciadorTelas.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GerenteAtor.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Tela.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\CMenu.hpp">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RPlay.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RCreate.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CTile.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CButton.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CParticle.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CPlayer.h">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RSelCria.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RSelJoga.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CPreview.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoV.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoDiag.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoE.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CFimJogo.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\REdit.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RSelEdit.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RTesta.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoH.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoBH.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoBV.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInimigoBD.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RGameOver.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CChoice.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ControleX.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RLogo.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RPreMenu.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CEditor.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CHUD.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms\RPassou.h">
+      <Filter>Header Files\rooms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scary Monsters and Nice Joe.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\DATA\img\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
